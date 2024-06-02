@@ -13,7 +13,6 @@ main {
 	font-size: 50px;
 	text-align: center;
 	padding: 20px;
-	border: 1px solid rosybrown; /* 임시코드 */
 }
 .page-header img {
 	height: 60px;
@@ -36,7 +35,10 @@ main {
 .user-name strong {
 	font-weight: bold;
 }
-
+.user-name {
+}
+.user-point {
+}
 .login-btn {
 	padding: 5px 10px;
 	border-radius: 3px;

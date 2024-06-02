@@ -245,7 +245,7 @@
 
 			function handleSignUpCompletionModalCloseButtonClick() {
 				document.querySelector(".signup-completion-modal-overlay").style.display = "none";
-				window.location.href = "login.html";
+				window.location.href = "login.jsp";
 			}
 		</script>
 	</body>

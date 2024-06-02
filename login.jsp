@@ -31,7 +31,7 @@
 			<div class="login-footer">
 				<p class="new-message">EBook Service가 처음이신가요?</p>
 				<div class="sign-up">
-					<button class="sign-up-btn" onclick="location.href='sign-up.html'">회원가입</button>
+					<button class="sign-up-btn" onclick="location.href='sign-up.jsp'">회원가입</button>
 				</div>
 			</div>
 		</div>

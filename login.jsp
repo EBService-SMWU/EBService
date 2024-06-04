@@ -15,23 +15,23 @@
 			<div class="login-container">
 				<form method="post" action="login_verify.jsp">
 					<div class="login-content">
-						<input type="text" name="userID" placeholder="아이디를 입력해 주세요" required />
+						<input type="text" name="user_id" placeholder="아이디를 입력해 주세요" required />
 					</div>
 					<div class="login-content">
 						<input
 							type="password"
-							name="userPassword"
+							name="password"
 							placeholder="비밀번호를 입력해 주세요"
 							required
 						/>
 					</div>
-					<button type="submit" class="login-btn">로그인</button>
+					<input type="submit" value="로그인" class="login-btn" />
 				</form>
 			</div>
 			<div class="login-footer">
 				<p class="new-message">EBook Service가 처음이신가요?</p>
 				<div class="sign-up">
-					<button class="sign-up-btn" onclick="location.href='sign-up.jsp'">회원가입</button>
+					<button class="sign-up-btn"><a href="signup.jsp"> 회원가입 </a></button>
 				</div>
 			</div>
 		</div>

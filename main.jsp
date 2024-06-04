@@ -104,7 +104,7 @@
 
 				detailViewButtons.forEach((button) => {
 					button.addEventListener("click", function () {
-						window.location.href = "<%= request.getContextPath() %>/book-detail.jsp";
+						window.location.href = "/book-detail.jsp";
 					});
 				});
 			});
